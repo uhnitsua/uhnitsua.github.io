@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.xatu.factory_method_pattern.idcard.IDCardFactory</OriginalElement>
+  <nodes>
+    <node x="191.00000000000003" y="128.0">edu.xatu.factory_method_pattern.framework.Factory</node>
+    <node x="250.50000000000003" y="0.0">edu.xatu.factory_method_pattern.framework.Product</node>
+    <node x="0.0" y="104.0">edu.xatu.factory_method_pattern.idcard.IDCard</node>
+    <node x="113.22500000000002" y="302.0">edu.xatu.factory_method_pattern.idcard.IDCardFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.xatu.factory_method_pattern.idcard.IDCardFactory" target="edu.xatu.factory_method_pattern.framework.Product">
+      <point x="90.75" y="-62.0" />
+      <point x="324.975" y="282.0" />
+      <point x="443.5" y="282.0" />
+      <point x="443.5" y="79.0" />
+      <point x="353.0" y="79.0" />
+      <point x="41.0" y="27.0" />
+    </edge>
+    <edge source="edu.xatu.factory_method_pattern.idcard.IDCardFactory" target="edu.xatu.factory_method_pattern.framework.Factory">
+      <point x="30.25" y="-62.0" />
+      <point x="264.475" y="282.0" />
+      <point x="312.0" y="282.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="edu.xatu.factory_method_pattern.idcard.IDCardFactory" target="edu.xatu.factory_method_pattern.idcard.IDCard">
+      <point x="-30.25" y="-62.0" />
+      <point x="203.97500000000002" y="272.0" />
+      <point x="128.25" y="272.0" />
+      <point x="42.75" y="74.0" />
+    </edge>
+    <edge source="edu.xatu.factory_method_pattern.framework.Factory" target="edu.xatu.factory_method_pattern.framework.Product">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="edu.xatu.factory_method_pattern.idcard.IDCard" target="edu.xatu.factory_method_pattern.framework.Product">
+      <point x="0.0" y="-74.0" />
+      <point x="85.5" y="79.0" />
+      <point x="271.0" y="79.0" />
+      <point x="-41.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="65.0" y="182.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

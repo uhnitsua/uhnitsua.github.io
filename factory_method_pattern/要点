@@ -1,0 +1,30 @@
+Factory Method 模式:
+    父类决定实例的生成方式，但不决定所要生成的具体的类，具体类的处理全部交给子类负责。这样就将生成实例的框架(framework)和
+实际负责生成实例的类解耦。
+框架与具体加工
+    分别被封装在framework包和idcard包中。当使用已有的框架生成全新的类时，完全不需要对framework包进行修改，关于这一点，
+ 叫做“framework包不依赖于idcard包”。
+生成实例--方法的三种实现方式
+    在示例程序中，Factory类的createProduct方法是 抽象方法，需要在子类中实现该方法。
+    createProduct 方法的实现方式一般有以下3种:
+    指定其抽象方法
+         public abstract class Factory {
+             protected abstract Product createProduct (String owner);
+                ...
+         }
+    为其实现默认处理
+        实现默认处理后，如果子类没有实现该方法，将进行默认处理。
+        public class Factory {
+            public Product create(String name){
+                return new Product(name);
+            }
+        }
+        此时使用new 关键字创建实例的，因此不能将Product类定义为抽象类。
+    在其中抛出异常
+        在其中抛出异常。
+        public class Factory {
+            public  Product create(String name){
+                throw new FactoryMethoRuntimeException ();
+            }
+            ...
+        }

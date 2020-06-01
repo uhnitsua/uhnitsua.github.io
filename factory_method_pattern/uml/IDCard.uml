@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.xatu.factory_method_pattern.idcard.IDCard</OriginalElement>
+  <nodes>
+    <node x="24.0" y="0.0">edu.xatu.factory_method_pattern.framework.Product</node>
+    <node x="0.0" y="104.0">edu.xatu.factory_method_pattern.idcard.IDCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.xatu.factory_method_pattern.idcard.IDCard" target="edu.xatu.factory_method_pattern.framework.Product">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="56.0" />
+  <SelectedNodes>
+    <node>edu.xatu.factory_method_pattern.idcard.IDCard</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
